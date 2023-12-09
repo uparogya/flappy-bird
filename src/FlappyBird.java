@@ -133,7 +133,7 @@ public class FlappyBird extends Game{
                 if(birdCrashed){
                     bird.paint(brush,Color.red);
                     brush.setColor(Color.black);
-                    brush.drawString("Bird Crashed" ,SCREEN_WIDTH/2 - 50,SCREEN_HEIGHT/2);
+                    brush.drawString("Bird Crashed! Continue(N)" ,SCREEN_WIDTH/2-110,SCREEN_HEIGHT/2);
                     on = false;
                     this.addKeyListener(new Restart());
                 }

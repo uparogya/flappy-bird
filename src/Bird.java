@@ -75,8 +75,8 @@ public class Bird extends Polygon implements java.awt.event.KeyListener{
 
     public void keyPressed(KeyEvent e) {
         initialAnimation = false;
-        moveStatus = true;
         if(e.getKeyCode() == KeyEvent.VK_SPACE){
+            moveStatus = true;
             current = Movement.up;
         }
     }
