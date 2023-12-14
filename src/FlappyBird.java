@@ -19,7 +19,7 @@ public class FlappyBird extends Game{
     private java.util.ArrayList<Clouds> clouds = new ArrayList<Clouds>();
 
     public FlappyBird() {
-        super("Flappy Bird", SCREEN_WIDTH, SCREEN_HEIGHT);
+        super("Flappy Bird By Arogya", SCREEN_WIDTH, SCREEN_HEIGHT);
         this.setFocusable(true);
         this.requestFocus();
 
